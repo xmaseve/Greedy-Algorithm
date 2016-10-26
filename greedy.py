@@ -1,4 +1,4 @@
-ef greedy_cow_transport(cows,limit=10):
+def greedy_cow_transport(cows,limit=10):
     """
     Uses a greedy heuristic to determine an allocation of cows that attempts to
     minimize the number of spaceship trips needed to transport all the cows. The
